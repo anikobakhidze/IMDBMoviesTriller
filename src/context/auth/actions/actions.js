@@ -1,0 +1,9 @@
+export const userLoggedIn = "Logged In";
+export const userLoggedOut = "Logged Out";
+export const authenticateUser = "Authenticate";
+export const searchMovie = "searchMovie";
+export const clearSearchMovie = "clearSearchMovie";
+export const addMovies = "addMovies";
+export const clearMovies = "clearMovies";
+export const error = "error";
+export const isLoading = "isLoading";

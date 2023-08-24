@@ -1,0 +1,9 @@
+.searchResultsWrapper {
+  position: absolute;
+  z-index: 5000;
+  background-color: var(--blue-color);
+  padding: 30px;
+  height: 400px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+}

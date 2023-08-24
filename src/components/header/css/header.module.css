@@ -1,0 +1,98 @@
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--blue-color);
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000;
+}
+
+.logoWrapper {
+  width: 200px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.welcomeWrapper {
+  display: flex;
+  align-items: center;
+  color: var(--white-color);
+  font-size: 20px;
+  background-color: var(--orange-color);
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.welcomeWrapper:hover {
+  opacity: 0.3;
+}
+
+.welcome {
+  margin-right: 10px;
+}
+
+.container {
+  position: relative;
+  cursor: pointer;
+}
+
+.signOutButton {
+  position: absolute;
+  padding: 10px 24px;
+  right: 0;
+  top: 68px;
+}
+
+@media (max-width: 1200px) {
+  .signOutButton {
+    position: initial;
+    width: 100px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .navBarDisplay {
+    display: none;
+  }
+
+  .welcomeWrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .headerWrapper {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerWrapper {
+    padding: 0px;
+  }
+
+  .logoWrapper {
+    width: 150px;
+  }
+
+  .authButton {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .logoWrapper {
+    display: none;
+  }
+
+  .headerWrapper {
+    justify-content: flex-start;
+  }
+}

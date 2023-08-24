@@ -1,0 +1,20 @@
+.signInError,
+.signUpError {
+  margin-top: 10px;
+  color: var(--orange-color);
+  background-color: var(--blue-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+.passwordContainer {
+  width: 100%;
+  position: relative;
+}
+.passwordCheckbox {
+  width: 20px;
+  height: 20px;
+  color: var(--gray-color);
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}

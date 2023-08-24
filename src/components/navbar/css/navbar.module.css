@@ -1,0 +1,24 @@
+.listWrapper {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.navlists {
+  color: var(--gray-color);
+  font-size: 20px;
+}
+.activeColor {
+  color: var(--orange-color);
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .listWrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .listWrapper li {
+    margin-bottom: 15px;
+  }
+}

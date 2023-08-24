@@ -1,0 +1,59 @@
+.moviesHomeError p {
+  margin-left: 10px;
+}
+.movieHeaderContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.movieHeaderWrapper {
+  display: flex;
+  align-items: center;
+  width: 75%;
+}
+
+.moviesHeader {
+  color: var(--white-color);
+  font-size: 30px;
+}
+
+.filmLogo {
+  background-color: var(--orange-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  margin-right: 10px;
+}
+.homeWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moviesContainer {
+  width: 80%;
+  margin: 100px auto;
+}
+@media (max-width: 800px) {
+  .moviesHeader {
+    font-size: 25px;
+  }
+  .filmLogo {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+}
+@media (max-width: 00px) {
+  .movieHeaderContainer {
+    margin-top: 80px;
+  }
+  .moviesHeader {
+    font-size: 20px;
+  }
+}

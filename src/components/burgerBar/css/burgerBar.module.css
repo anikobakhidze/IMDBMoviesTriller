@@ -1,0 +1,56 @@
+.burgerBar {
+  color: var(--white-color);
+  font-size: 30px;
+}
+
+.burgerBarWrapper {
+  position: relative;
+  width: 200px;
+  display: none;
+}
+.burgerBarIcon {
+  background-color: var(--blue-color);
+}
+
+.burgerBarIcon:hover {
+  background-color: var(--gray-color);
+}
+
+.signOutButton {
+  position: absolute;
+  padding: 10px 24px;
+  right: 0;
+  top: 68px;
+}
+
+@media (max-width: 1200px) {
+  .burgerBarList {
+    background-color: var(--blue-color);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 150px;
+    justify-content: space-between;
+  }
+
+  .signOutButton {
+    position: initial;
+    width: 100px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .burgerBarIcon {
+    margin: inherit;
+    width: 80px;
+  }
+
+  .burgerBarWrapper {
+    display: block;
+    width: 150px;
+  }
+}

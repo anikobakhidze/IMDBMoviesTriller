@@ -1,0 +1,15 @@
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchBarContainer input {
+  height: 40px;
+  outline: none;
+  width: auto;
+  background-color: var(--black-color);
+  border: none;
+  color: var(--white-color);
+  font-size: 20px;
+  margin-left: 10px;
+}

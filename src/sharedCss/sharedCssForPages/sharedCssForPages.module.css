@@ -1,0 +1,20 @@
+.errorFetch {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: var(--orange-color);
+  font-size: 24px;
+}
+
+@media (max-width:870px) {
+  .errorFetch {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:870px) {
+  .errorFetch {
+    font-size: 20px;
+  }
+}

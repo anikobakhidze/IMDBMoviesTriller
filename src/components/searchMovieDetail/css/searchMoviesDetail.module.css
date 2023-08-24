@@ -1,0 +1,15 @@
+.searchMovieDetail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.searchMovieDetail img {
+  margin-right: 5px;
+  width: 40px;
+  height: 60px;
+  border-radius: 50%;
+}
+.searchMovieDetail:hover {
+  background-color: var(--black-color);
+}

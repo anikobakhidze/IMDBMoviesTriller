@@ -1,0 +1,13 @@
+.errorWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  font-size: 30px;
+}
+.errorWrapper h2 {
+  color: var(--white-color);
+  font-size: 24px;
+  margin-left: 10px;
+}

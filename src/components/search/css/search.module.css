@@ -1,0 +1,13 @@
+.searchWrapper {
+  background-color: var(--black-color);
+  color: var(--gray-color);
+  padding: 0 30px;
+  border-radius: 15px;
+  position: relative;
+}
+
+@media (max-width:800px) {
+  .searchWrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+.slick-slide > div:first-child {
+  display: flex;
+  justify-content: center;
+}
+.slick-prev {
+  left: -45px;
+}
+.slick-arrow::before {
+  font-size: 30px;
+}
+.slick-arrow:hover::before {
+  color: var(--orange-color);
+}
+.slick-track {
+  transform: initial;
+}
+@media (max-width: 500px) {
+  .slick-prev {
+    left: -23px;
+  }
+  .slick-arrow::before {
+    font-size: 16px;
+  }
+}

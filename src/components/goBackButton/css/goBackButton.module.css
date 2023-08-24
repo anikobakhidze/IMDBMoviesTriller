@@ -1,0 +1,28 @@
+.goBack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-color);
+  border: 1px solid var(--orange-color);
+  box-shadow: 10px 10px 4px(var(--orange-color));
+  transition: 0.001s;
+}
+
+.goBack:hover {
+  width: 150px;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, var(--orange-color) 0%, var(--blue-color) 74%);
+  border: none;
+}
+
+.backButtonIcon {
+  margin-left: 10px;
+}
+
+@media (max-width:700px) {
+  .goBack {
+    width: 100px;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
