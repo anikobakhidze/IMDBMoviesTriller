@@ -74,8 +74,10 @@ function SignInForm() {
             <div className={styles.passwordContainer}></div>
             <button type="submit">SignIn</button>
             <h4>
-              Don`&apos;`t have an account?{" "}
-              <Link to={route.SIGNUP}>Sign up</Link>
+              Dont have an account?
+              <span>
+                <Link to={route.SIGNUP}>Sign up</Link>
+              </span>
             </h4>
           </Form>
         </Formik>

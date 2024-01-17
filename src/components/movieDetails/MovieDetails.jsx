@@ -14,7 +14,9 @@ function MovieDetails() {
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     movieDetailApi(movieId)
-      .then((data) => setMovie(data))
+      .then((data) => {
+        setMovie(data);
+      })
       .catch((error) => {
         setError(error.message);
       })
@@ -22,6 +24,7 @@ function MovieDetails() {
   }, []);
   const title = error ? "Error" : movie.title;
   useDocumentTitle(title);
+
   return (
     <>
       {isLoading && (
@@ -43,7 +46,7 @@ function MovieDetails() {
             <div className={styles.movieTrailerWrapper}>
               <iframe
                 title="movie-trailer"
-                src={movie.trailer}
+                src={movie.trailer_embed_link}
                 allowFullScreen
               />
             </div>
