@@ -3,7 +3,7 @@ async function movieDetailApi(movieId) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "afca540431msh6140a87be457925p16cde7jsn7ffb7118a75a",
+      "X-RapidAPI-Key:": process.env.REACT_APP_KEY,
       "X-RapidAPI-Host": "imdb-top-100-movies.p.rapidapi.com",
     },
   };
